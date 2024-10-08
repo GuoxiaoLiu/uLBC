@@ -24,7 +24,7 @@ A major revision of the paper \#39 submitted to the CIC Volume 2024/3. In the te
 
 
 - Reply to Other Comments
-Review \#39A:
+- Review \#39A:
     - the typos
     
     We thank the reviewers for their careful review and pointing out mistakes. We carefully correct most of the errors and strive to improve the quality of our writing.
@@ -38,13 +38,14 @@ Review \#39A:
     In Section 4.6, we show an upper bound estimate of the number of \textsf{uLBC-384t} attack rounds under the relevant key scenario. We show up to 25 attacks can be completed with current techniques, there are still 5 rounds redundancy.
 
 
-Review \#39B:
+- Review \#39B:
     - Only a very basic type of cryptanalysis is considered. What about differential-linear cryptanalysis, for example?
 
     We add the results of the differential-linear attack and boomerang attack in sections 4.1.3 and 4.2, respectively. We believe these mainstream attack results effectively illustrate the security of the ciphers, as they provide an upper bound for cryptanalysis. And we have not found any variants that can achieve attacks with the number of rounds beyond the upper bound.
+   
 
 
-Review \#39C:
+- Review \#39C:
 
     - In Section 3.2, what’s the rationale for choosing the nibble permutation ``PosPerm" to compare the differential diffusion properties of the MDS and almost MDS matrices?
 
