@@ -41,7 +41,7 @@ Review \#39A:
 Review \#39B:
     - Only a very basic type of cryptanalysis is considered. What about differential-linear cryptanalysis, for example?
 
-    We add the results of the differential-linear attack and boomerang attack in sections \ref{diff-linear} and \ref{boomerang}, respectively. We believe these mainstream attack results effectively illustrate the security of the ciphers, as they provide an upper bound for cryptanalysis. And we have not found any variants that can achieve attacks with the number of rounds beyond the upper bound.
+    We add the results of the differential-linear attack and boomerang attack in sections 4.1.3 and 4.2, respectively. We believe these mainstream attack results effectively illustrate the security of the ciphers, as they provide an upper bound for cryptanalysis. And we have not found any variants that can achieve attacks with the number of rounds beyond the upper bound.
 
 
 Review \#39C:
